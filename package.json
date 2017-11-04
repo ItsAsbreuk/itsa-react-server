@@ -1,6 +1,6 @@
 {
   "name": "itsa-react-server",
-  "version": "16.2.13",
+  "version": "16.2.17",
   "description": "itsa-react-server Hapi plugin",
   "author": "",
   "repository": {
@@ -62,6 +62,7 @@
     "itsa-event": "^1.1.10",
     "itsa-fetch": "^1.4.1",
     "itsa-jsext": "^1.4.0",
+    "itsa-react-clone-props": "^1.1.0",
     "itsa-utils": "^1.4.0",
     "js-string-escape": "^1.0.1",
     "jsdom": "^11.0.0",
