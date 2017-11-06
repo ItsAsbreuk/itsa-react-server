@@ -41,3 +41,10 @@ See http://itsaserver.io for the complete documentation and usage.
 --------------
 
 You can start right away building your application. Any help can be found at [http://itsaserver.io](http://itsaserver.io).
+
+#### If you want to express your appreciation
+
+Feel free to donate to one of these addresses; my thanks will be great :)
+
+* Ether: 0xE096EBC2D19eaE7dA8745AA5D71d4830Ef3DF963
+* Bitcoin: 37GgB6MrvuxyqkQnGjwxcn7vkcdont1Vmg
