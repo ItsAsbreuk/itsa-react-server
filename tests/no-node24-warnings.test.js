@@ -31,3 +31,11 @@ test('loading the plugin and react-dom prints no requestAnimationFrame warnings'
     assert.match(result.stdout, /react-dom loaded/);
     assert.doesNotMatch(result.stderr, /requestAnimationFrame|cancelAnimationFrame/);
 });
+
+// jsdom 11 loaded `pn`, which copies `fs.F_OK` - deprecated (DEP0176) from Node 24 on
+test('loading the plugin and react-dom prints no DeprecationWarning', () => {
+    const result = startupOutput();
+    assert.strictEqual(result.status, 0, result.stderr);
+    assert.match(result.stdout, /react-dom loaded/);
+    assert.doesNotMatch(result.stderr, /DeprecationWarning/);
+});

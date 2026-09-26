@@ -68,7 +68,7 @@
     "itsa-utils": "^1.4.1",
     "js-cookie": "^2.2.0",
     "js-string-escape": "^1.0.1",
-    "jsdom": "^11.0.0",
+    "jsdom": "^21.1.2",
     "jsdom-global": "^3.0.2",
     "keypress": "^0.2.1",
     "log-update": "^2.0.0",
